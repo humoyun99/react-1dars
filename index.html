@@ -9,10 +9,23 @@
     <title>Document</title>
 </head>
 <body>
-    <diw id="id"></diw>
+    <diw id="root"></diw>
     <h1>salom</h1>
+   
 
-    <script type="text/babel"></script>
+    <script type="text/babel">
+        const App=()=>{
+        //odatiy function
+        return(
+            <div>
+                <h1>my firs react compont</h1>
+                </div>
+        )
+        // template
+        };
+        const root=ReactDOM.createRoot(document.getElementById('root'))
+        root.render(<App/>)
+    </script>
     
 </body>
 </html>
