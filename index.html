@@ -14,6 +14,10 @@
    
 
     <script type="text/babel">
+        const handleClick=()=>{
+            console.log('you click me')
+        }
+
         const App=()=>{
             const hush='indi nima bulishini kuramiz'
         //odatiy function
@@ -22,6 +26,7 @@
                 <h1>my firs react compont</h1>
                 <h1>{hush}</h1>
                 <p>Today is date:{new Date().toDateString()} </p>
+                <button onClick={handleClick}>Click me</button>
                 </div>
         )
         // template
